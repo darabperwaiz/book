@@ -1,0 +1,121 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.headSection {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.backArrow {
+    font-size: 25px;
+    background-color: rgba(237, 237, 237, 0.655);
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadCrumb {
+    display: flex;
+    gap: 10px;
+}
+
+.breadCrumb a {
+    color: #8b8b8b;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+
+.breadCrumb a:hover {
+    color: orangered;
+}
+
+.breadCrumb>span:nth-child(3), span:nth-child(2) {
+    color: #8b8b8b;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.top_Section {
+    display: flex;
+    gap: 50px;
+}
+
+.imgWrapper {
+    width: 400px;
+    background-color: red;
+}
+
+.top_Section img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 6/7;
+}
+
+.overview {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+.overview p:nth-child(1) {
+    font-size: 15px;
+    color: gray;
+}
+
+.overview p:nth-child(2) {
+    font-size: 25px;
+}
+
+.overview p:nth-child(3) i {
+    color: orange;
+}
+
+.overview p:nth-child(3) {
+    font-size: 15px;
+}
+
+.btn {
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.bottom_Section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottom_Section p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #444;
+    width: max-content;
+    padding-bottom: 7px;
+}
+
+@media only screen and (max-width: 600px) {
+    .top_Section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

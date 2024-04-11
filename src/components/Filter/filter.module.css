@@ -1,0 +1,19 @@
+.filter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+    background-color: rgba(235, 235, 235, 0.327);
+}
+
+.genre {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.genre p, .author p {
+    font-size: 14px;
+    font-weight: 500;
+}
